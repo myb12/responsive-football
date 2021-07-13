@@ -1,5 +1,9 @@
 /* google fonts */
+/* for weight 700 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+/* for weight 400 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 /* some common css */
@@ -38,7 +42,7 @@ header{
 }
 
 .header-content:hover .banner{
-    transform: rotate(45deg);
+    transform: scale(1.2) rotate(20deg);
 }
 
 .top-heading{
@@ -94,6 +98,7 @@ main{
 }
 
 .player h2{
+    color: #18191F;
     font-size: 28px;
 }
 
@@ -101,5 +106,41 @@ main{
     font-size: 16px;
     color:#6C6C6C;
     margin: 16px 0 10px 0;
-
 }
+
+/* footer section */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+
+.footer-content{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 158px;
+}
+
+.logo img{
+    height: 110px;
+    width: 100%;
+}
+
+.footer-icon{
+    height: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+.fab{
+    color: #969BAB;
+    font-size: 32px;
+    margin-right: 14px;
+}
+
+.copyright{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight:100;
+}
+
