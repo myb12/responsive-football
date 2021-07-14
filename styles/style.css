@@ -126,7 +126,7 @@ main{
 }
 
 .award{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 330px;
     height: 270px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -136,6 +136,11 @@ main{
     width: 300px;
     height: 240px;
     margin:15px 0 15px 15px;
+}
+
+.award h2{
+    background-color: #2d25a0;
+    color: #fff;
 }
 
 /* contact section  */
@@ -231,6 +236,7 @@ footer{
 
     .award-section{
         width: 100%;
+        margin-bottom: 70px;
     }
 
     .text-center{
@@ -245,11 +251,12 @@ footer{
 
     .award{
         width: 330px;
-        margin: 30px auto;
+        margin: 20px auto;
     }
 
     .award h2{
-        margin-left: -10px;
+        margin: 0;
+        padding: 0;
     }
 
     .contact-section{
@@ -307,7 +314,7 @@ footer{
         grid-template-columns: repeat(2,1fr);
     }
     .award{
-        margin: 30px auto;
+        margin: 20px auto;
     }
 
     .contact-section{
