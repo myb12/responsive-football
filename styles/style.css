@@ -54,15 +54,15 @@ header{
 }
 
 .top-heading{
-   width:485px;
+   width:590px;
    height:300px;
-   margin-right: 102px;
+   
 }
 
 .top-heading h1{
     color: #ffffff;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 63px;
     line-height: 45%;
 }
 
